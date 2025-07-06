@@ -72,10 +72,10 @@ cd User-Management-REST-API
 ```
 ### 3. Create a .env file in the root directory
 ```bash
--**PORT=3000**
--DB_HOST=localhost
--DB_USER=your_mysql_username
--DB_PASSWORD=your_mysql_password
--DB_NAME=your_database_name
--JWT_SECRET=your_jwt_secret
+- PORT=3000
+- DB_HOST=localhost
+- DB_USER=your_mysql_username
+- DB_PASSWORD=your_mysql_password
+- DB_NAME=your_database_name
+- JWT_SECRET=your_jwt_secret
 ```
