@@ -64,7 +64,10 @@ README.md
 ```bash
 git clone https://github.com/swainsubhrajit98/User-Management-REST-API.git
 cd User-Management-REST-API
-2**Install dependencies**
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
 -npm install
 -npm run dev  
