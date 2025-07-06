@@ -64,13 +64,12 @@ README.md
 ```bash
 git clone https://github.com/swainsubhrajit98/User-Management-REST-API.git
 cd User-Management-REST-API
+```
 ### 2. Install dependencies
    ```
    npm install
-   ```
-
--npm install
--npm run dev  
+   npm run dev
+```
 ### 3. Create a .env file in the root directory
 ```bash
 -**PORT=3000
