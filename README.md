@@ -62,15 +62,21 @@ README.md
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/swainsubhrajit98/User-Management-REST-API.git
-cd User-Management-REST-API
-### 2. Install dependencies
-npm install
-npm run dev  
-### 3. Create a .env file in the root directory
-PORT=3000
-DB_HOST=localhost
-DB_USER=your_mysql_username
-DB_PASSWORD=your_mysql_password
-DB_NAME=your_database_name
-JWT_SECRET=your_jwt_secret
+- git clone https://github.com/swainsubhrajit98/User-Management-REST-API.git
+- cd User-Management-REST-API
+```
+### 2. Create a .env file in the root directory
+```bash
+- PORT=3000
+- DB_HOST=localhost
+- DB_USER=your_mysql_username
+- DB_PASSWORD=your_mysql_password
+- DB_NAME=your_database_name
+- JWT_SECRET=your_jwt_secret
+```
+### 3. Install dependencies
+   ```bash
+- npm install
+- npm run dev
+```
+
