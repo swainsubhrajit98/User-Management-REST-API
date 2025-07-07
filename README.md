@@ -76,6 +76,17 @@ README.md
 ```
 ### 3. Install dependencies
    ```bash
+
+
+---
+
+### ✅ Summary of Changes:
+- Correct step order: install dependencies **before** running the app.
+- Removed dashes `-` from inside code blocks — only needed for bullet lists outside of code.
+- `.env` variables shown as bullet points for better readability, like your screenshot.
+
+Let me know if you’d like the entire updated `README.md` file content so you can copy and paste it directly!
+
 - npm install
 - npm run dev
 ```
