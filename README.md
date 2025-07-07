@@ -4,49 +4,22 @@ This project is a secure and modular **User Management REST API** built using **
 
 ---
 
-## 📁 Project Folder Structure
-
-<pre>
-node_modules/       ← (excluded from Git)
-src/
-├── config/         ← Database connection setup
-│   └── db.js
-├── controllers/    ← Business logic (CRUD operations)
-│   └── userController.js
-├── data/           ← SQL schema and seed scripts
-│   ├── createUserTable.js
-│   └── data.sql
-├── middlewares/    ← Custom middlewares
-│   ├── authMiddleware.js
-│   ├── errorHandler.js
-│   └── userValidation.js
-├── models/         ← Database queries (Model layer)
-│   └── userModel.js
-├── routes/         ← API endpoints
-│   ├── userRoutes.js
-│   └── index.js
-.env                ← (excluded from Git, create manually)
-.gitignore
-package-lock.json
-package.json
-README.md
-</pre>
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ User Registration with validation
-- ✅ User Login with JWT token generation
-- ✅ JWT-protected routes for authorized access
-- ✅ Secure password hashing with bcrypt
-- ✅ Input validation using Joi
-- ✅ Centralized error handling
-- ✅ MySQL database integration
+-  User Registration with validation
+-  User Login with JWT token generation
+-  JWT-protected routes for authorized access
+-  Secure password hashing with bcrypt
+-  Input validation using Joi
+-  Centralized error handling
+-  MySQL database integration
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 - **Node.js**
 - **Express.js**
@@ -80,7 +53,7 @@ README.md
 
 ---
 
-### ✅ Summary of Changes:
+###  Summary of Changes:
 - Correct step order: install dependencies **before** running the app.
 - Removed dashes `-` from inside code blocks — only needed for bullet lists outside of code.
 - `.env` variables shown as bullet points for better readability, like your screenshot.
