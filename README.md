@@ -1,11 +1,6 @@
-# 🛡️ Node.js User Management API with JWT & MySQL
+#  Node.js User Management API with JWT & MySQL
 
 This project is a secure and modular **User Management REST API** built using **Node.js**, **Express**, **MySQL**, and **JWT Authentication**. It allows user registration, login, profile management, and protected routes.
-
----
-
-
----
 
 ##  Features
 
